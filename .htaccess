@@ -1,0 +1,7 @@
+ErrorDocument 404 /Pokemon/404.php
+ErrorDocument 403 /Pokemon/403.php
+Options -Indexes
+<FilesMatch "header.php|head.php|effectifsection.php|galeriesection.php">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
